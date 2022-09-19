@@ -4,7 +4,8 @@
       <title>SandroRRamos' Portfolio!</title>
       <style type="text/css">
         body {
-            background: rgb(125, 198, 205);
+            background-image: radial-gradient(rgb(153, 255, 153),#A9DEF9,rgb(214, 90, 214));
+            background-attachment:fixed;
             color: rgb(45, 45, 45);
             padding: 10px;
             font-family: arial;
@@ -21,10 +22,12 @@
 
         /* navigation menu */
         nav {
-            background: rgb(239, 80, 41);
+            background: mediumpurple;
             margin: 0 auto;
             display: flex;
             padding: 10px;
+            border-top-left-radius: 25px;
+            border-top-right-radius: 25px;
         }
         h1 {
             display: flex;
@@ -47,8 +50,16 @@
 
         /* main container area beneath menu */
         main {
-            background: rgb(245, 238, 219);
+            background: rgb(104, 186, 219);
             display: flex;
+            border-bottom-left-radius: 25px;
+            border-bottom-right-radius: 25px;
+        }
+        img {
+            position: absolute;
+            right: 0px;
+            bottom: 0px;
+            width: 551px;
         }
         .content {
             flex: 1;
@@ -72,7 +83,10 @@
          }
 
          #portfolio li:hover {
-             background: #eee;
+             background: lightgreen;
+         }
+         .nav-a:hover {
+            color: lightgreen;
          }
 
          #portfolio a {
@@ -106,5 +120,6 @@
             </div>
          </main>
       </div>
+      <img src="https://c.tenor.com/qf4HrRXjfqgAAAAj/dragon-ball-dragon-ball-super.gif"
     </body>
 </html>
